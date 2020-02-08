@@ -1,0 +1,80 @@
+#testimonials{
+    padding:70px 40px;
+    background-color: #f6f6f6;
+    color:grey;
+}
+@keyframes human-info-move{
+0%{transform: translateX(0%);}
+20%{transform: translateX(-102%);}
+40%{transform: translateX(-204%);}
+60%{transform: translateX(-306%);}
+80%{transform: translateX(-408%);}
+100%{transform: translateX(-420%);}
+}
+.outside-box{
+    width:300%;
+    overflow: hidden;
+
+}
+
+.human-info{
+    transform: translateX(-0%);
+    width:50%;
+    padding:20px 40px;
+    background-color: white;
+    animation-name: human-info-move;
+    animation-duration: 45s;
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite;
+     
+
+}
+.human-info:not(:first-child){
+    margin-left: 30px;
+}
+.time-info{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+.human-info-text{
+    margin-top:30px;
+}
+.time-info p{
+    font-size:25px;
+    font-style: italic
+}
+.star-icons{
+color:orange;
+}
+.time{
+position: relative;
+
+
+}
+.overflow{
+    overflow: hidden;
+
+}
+.author{
+    margin-top:20px;
+}
+.scroll-icon{
+    text-align: center;
+    margin-top:20px;
+    padding-right:16px;
+    color:rgba(42, 109, 42)
+}
+.author-img img{
+    border-radius:50%
+}
+.author-data{
+    margin:10px;
+}
+.author-data p:first-child{
+    color:rgb(164, 121, 204)
+}
+.author-data p:last-child{
+    padding-top:10px;
+    font-style: italic;
+}
